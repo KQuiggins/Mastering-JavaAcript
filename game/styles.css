@@ -1,0 +1,33 @@
+#canvas1 {
+
+    position: absolute ;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(69, 52, 52);
+}
+
+.controls {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.controls, select, option {
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: gray;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    top: 50px;
+}
